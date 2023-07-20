@@ -1,4 +1,4 @@
-.container{
+/*.container{
     border-color: red;
     border-width: 3px;
     border-style: solid;
@@ -26,8 +26,7 @@
     border-color: rgb(81, 255, 0);
     border-width: 3px;
     border-style: solid;
-    /*-----
-    */
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -49,5 +48,5 @@
     width: 40%;
     max-width: 100%;
     
-}
+}*/
 
