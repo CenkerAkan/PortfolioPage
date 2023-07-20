@@ -1,0 +1,53 @@
+.container{
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+}
+.project-folder{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.project-with-one-img{
+    padding: 10px;
+    margin: 10px;
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+
+    
+}
+.one-image-div{
+    text-align: center;
+}
+.project-with-two-imgs{
+    padding: 10px;
+    margin: 10px;
+    border-color: rgb(81, 255, 0);
+    border-width: 3px;
+    border-style: solid;
+    /*-----
+    */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.two-images-div{
+    text-align: center;
+}
+.peter-img{
+    min-width: 400px;
+    width: 40%;
+    max-width: 100%;
+    text-align: right;
+}
+.stewie-img{
+    min-width: 400px;
+    width: 40%;
+    max-width: 100%;
+    
+}
+

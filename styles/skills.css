@@ -2,7 +2,7 @@
     margin-left: 25px;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 .soft-skills{
     margin-left: 25px;
@@ -12,5 +12,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-
 }
