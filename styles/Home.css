@@ -68,20 +68,25 @@ a{
     display: flex;
     flex-wrap: wrap;
     padding: 1%;
+    
     /*
     flex-direction: row;
     justify-content: start;
     align-items: center;*/
 }
 .home-image{
+    height: 98%;
     width: 98%;
-    min-width: 150px;
+    min-width: 350px;/* 150px*/
+    max-height: 700px;
 }
 .about-me{
     width: 98%;
     min-width: 350px;
+    height: 98%;
     background-color:#252525;
     color: white;
+    
 }
 
 .blank{
