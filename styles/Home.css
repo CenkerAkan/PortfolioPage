@@ -10,70 +10,92 @@ a{
     justify-content:center;
     align-items: center;
     row-gap: 35px;
-
+    padding: 15px;
     height: 100%;
 }
 .top-bar{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
+    
 
     border-width: 1px;
     border-style: solid;
     border-color: red;
-    height: 35px;
-
+    height: 10%;
+    min-height: 50px;
+    max-height: 70px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #252525;
     z-index: 1000;
+    
 }
 .bar{
-    border-width: 1px;
     border-style: solid;
-    border-color: greenyellow;
+    background-color: transparent;
     width: 100%;
-    text-align: center;
+    height: 100%;
+    text-align:center;
+    color: white;
+    border-radius: 90px;
+    border-color: transparent;
 }
 .bar-text{
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 10%;
     text-decoration: underline;
     transition: 0.5s;
+    font-size: 38px;
 }
 .bar:hover{
-    color: rgb(143, 23, 176);
+    color: rgb(255, 79, 4);
 }
 
 .main-content{
     border-width: 1px;
     border-style: solid;
     border-color: blue;
-    background-color: aquamarine;
-    margin-top: 35px;
-    width: 100%;
-    height: 100%;
-
+    background-color: #252525;
+    margin-top: 10%;
+    width: 98%;
+    height: 98%;
+    
 
     display: flex;
     flex-wrap: wrap;
-    
+    padding: 1%;
     /*
     flex-direction: row;
     justify-content: start;
     align-items: center;*/
 }
 .home-image{
-    width: 100%;
+    width: 98%;
     min-width: 150px;
 }
 .about-me{
-    width: 100%;
-    min-width: 150px;
+    width: 98%;
+    min-width: 350px;
+    background-color:#252525;
+    color: white;
 }
 
 .blank{
    width: 15px;
+}
+
+.portfolio-name{
+    font-size: 45px;
+    min-width: 100px;
+    height: 65px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.job-title{
+    margin-top: 5px;
+    text-align: center;
+
 }
