@@ -22,7 +22,7 @@
 
 
 .contact-info{
-    width: 46%;
+    width: 43%;
     flex:1fr;
     min-width: 225px;
     font-size: 100%;
@@ -31,7 +31,7 @@
 }
 
 .message-div{
-    width: 46%;
+    width: 43%;
     flex:1fr;
     min-width: 225px;
     height: 100%;
@@ -61,7 +61,7 @@
     color: white;
 }
 .message-text{
-    height: 50px;
+    height: 80px;
     background-color: #393838;
     border-style: solid;
     border-color: orangered;

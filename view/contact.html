@@ -43,15 +43,24 @@
             <h1 style="color: orangered;">
                 My Contact
             </h1>
+            <div style="text-align: left;">
+                <div>
+                    <h2><span style="color: white;">This part is not working for</span> <span style="color: orangered;">now</span><span style="color: white;">, I will connect a server</span> <span style="color: orangered;">as soon as possible</span><span style="color:white;">.</span></h2>
+                </div>
+                <div>
+                    <h2> <span style="color: white;">Please contact me via my </span> <span style="color: orangered;">email</span> <span style="color: white;">.</span></h2>
+                </div>
+            </div>
             <div class="contact-div">
+                
                 <div class="message-div">
                     <input type="text" class="name-text" placeholder= "Name" style="font-size: 80%;">
                     <input type="text" class="subject-text" placeholder= "Subject" style="font-size: 80%;">
-                    <input type="text" class="message-text" placeholder= "Your Message" style="font-size: 80%;">
+                    <textarea type="text" class="message-text" placeholder= "Your Message" style="font-size: 80%;"></textarea>
                     <button class="send-message">SEND</button>
                 </div>
                 <div class="contact-info">
-                    <h3 style="margin-top: 0;color: white;">My Contact Info</h3>
+                    <h3 style="margin-top: 0;color: white;"><span style="color: orangered;">My Contact</span> Info</h3>
                     <hr>
                     <div>
                         <h3 class="contact-info-text"> My Name: <span style="color: white;">Cenker Akan</span></h3>
@@ -63,4 +72,22 @@
         </div>
     </div>
 </body>
+<script>
+    // Butona tıklama olayını dinleyen işlev
+    function sendMessage() {
+        // İsim, konu ve mesaj değerlerini al
+        const name = document.querySelector(".name-text").value;
+        const subject = document.querySelector(".subject-text").value;
+        const message = document.querySelector(".message-text").value;
+
+        // Konsol log ile değerleri yazdır
+        console.log("Name:", name);
+        console.log("Subject:", subject);
+        console.log("Message:", message);
+    }
+
+    // "SEND" butonunu seç ve tıklama olay dinleyicisi ekleyin
+    const sendButton = document.querySelector(".send-message");
+    sendButton.addEventListener("click", sendMessage);
+</script>
 </html>
