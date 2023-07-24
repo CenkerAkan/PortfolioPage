@@ -80,6 +80,7 @@ a{
     width: 98%;
     min-width: 350px;/* 150px*/
     max-height: 700px;
+    max-width: 60%;
 }
 .about-me{
     width: 98%;
