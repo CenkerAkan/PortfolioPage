@@ -1,4 +1,3 @@
--   design issues is the first two page
 -   add logo links and solve border problem
 -   add your information to the website
 -   polish the website and complete the project
