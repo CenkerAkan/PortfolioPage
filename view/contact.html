@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../styles/contact.css">
     <title>Document</title>
 </head>
-<body style="background-color: grey; min-height: 1000px;">
+<body style="background-color: grey;">
     <div class="home-div" style="background-color: transparent;">
         <div class="top-bar">
             <div class="bar"><p class="bar-text"></p> </div>
@@ -48,7 +48,7 @@
                     <h2><span style="color: white;">This part is not working for</span> <span style="color: orangered;">now</span><span style="color: white;">, I will connect a server</span> <span style="color: orangered;">as soon as possible</span><span style="color:white;">.</span></h2>
                 </div>
                 <div>
-                    <h2> <span style="color: white;">Please contact me via my </span> <span style="color: orangered;">email</span> <span style="color: white;">.</span></h2>
+                    <h2> <span style="color: white;">Please contact me via my </span><span style="color: orangered;">email</span><span style="color: white;">.</span></h2>
                 </div>
             </div>
             <div class="contact-div">
@@ -73,20 +73,15 @@
     </div>
 </body>
 <script>
-    // Butona tıklama olayını dinleyen işlev
     function sendMessage() {
-        // İsim, konu ve mesaj değerlerini al
         const name = document.querySelector(".name-text").value;
         const subject = document.querySelector(".subject-text").value;
         const message = document.querySelector(".message-text").value;
-
-        // Konsol log ile değerleri yazdır
         console.log("Name:", name);
         console.log("Subject:", subject);
         console.log("Message:", message);
     }
 
-    // "SEND" butonunu seç ve tıklama olay dinleyicisi ekleyin
     const sendButton = document.querySelector(".send-message");
     sendButton.addEventListener("click", sendMessage);
 </script>

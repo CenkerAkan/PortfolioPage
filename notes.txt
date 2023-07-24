@@ -1,6 +1,4 @@
--   contact page details
--   add page write on contact page
--   designe issues is the first two page
+-   design issues is the first two page
 -   add logo links and solve border problem
 -   add your information to the website
 -   polish the website and complete the project
