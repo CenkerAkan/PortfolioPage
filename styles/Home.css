@@ -110,8 +110,8 @@ a{
 }
 @media screen and (max-width: 768px) {
     .little-body{
-        width: 85%;
-        padding: 35px;
+        width: 70%;
+        padding: 45px;
     }
 }
   
