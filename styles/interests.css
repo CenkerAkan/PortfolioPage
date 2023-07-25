@@ -31,3 +31,25 @@
     font-size: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 426px) {
+    .interest-img{
+        min-width: 200px;
+        width: 40%;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-color: #252525;;
+        border-width: 3px;
+        border-style: solid;
+        
+    }
+    .interes-text{
+        font-size: 18px;
+        text-align: left;
+    }
+    
+}
