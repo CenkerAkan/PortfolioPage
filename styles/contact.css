@@ -97,3 +97,18 @@
     width: 100%;
     text-align: left;
 }
+@media screen and (max-width: 426px) {
+    .contact-body{
+        padding:5px;
+    }
+    .contact-info-text{
+        color: orangered;
+        width: 100%;
+        text-align: left;
+        max-width: 300px;
+        font-size: 15;
+    }
+    .about-me-span{
+        font-size: 18px;
+    }
+}

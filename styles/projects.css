@@ -54,4 +54,32 @@
     max-width: 100%;
     
 }
+@media screen and (max-width: 426px) {
+    .container{
+        margin-top: 70px;
+        border-color: red;
+        border-width: 3px;
+        border-style: solid;
+        padding: 10px;
+        background-color: #252525;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .peter-img{
+        min-width: 200px;
+        width: 40%;
+        max-width: 100%;
+        text-align: right;
+    }
+    .stewie-img{
+        min-width: 200px;
+        width: 40%;
+        max-width: 100%;
+        
+    }
+    .main-body{
+        padding: 5px;
+    }
+}
 
