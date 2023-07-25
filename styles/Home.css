@@ -110,8 +110,30 @@ a{
 }
 @media screen and (max-width: 768px) {
     .little-body{
-        width: 50%;
+        width: 65%;
         padding: 70px;
+    }
+    .portfolio-name{
+        font-size: 45px;
+        min-width: 50px;
+        height: 65px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .about-me{
+        width: 98%;
+        min-width: 175px;
+        height: 98%;
+        background-color:#252525;
+        color: white;
+        
+    }
+    .home-image{
+        height: 98%;
+        width: 98%;
+        min-width: 175px;/* 150px*/
+        max-height: 700px;
+        
     }
 }
   
