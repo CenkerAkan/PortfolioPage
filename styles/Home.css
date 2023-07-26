@@ -1,6 +1,4 @@
-a{
-    color: black;
-}
+
 .home-div{
     border-width: 1px;
     border-style: solid;
@@ -70,10 +68,6 @@ a{
     flex-wrap: wrap;
     padding: 1%;
     
-    /*
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;*/
 }
 .home-image{
     height: 98%;
@@ -96,17 +90,44 @@ a{
 }
 
 .portfolio-name{
-    font-size: 45px;
+    font-size: 85px;
     min-width: 100px;
-    height: 65px;
+    height: 85px;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 27px;
 }
 
 .job-title{
     margin-top: 5px;
     text-align: center;
+    font-size: 40px;
+}
 
+.home-text{
+    margin-left: 30px;
+    font-size: 22px;
+}
+.cv-container {
+    text-align: center;
+    padding: 20px;
+}
+.download-btn {
+    background-color: orangered; 
+    color: black;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: grey;
+    border-style: solid;
+    transition: 0.4s;
+}
+
+/* Butonun üzerine gelince renk değişikliği */
+.download-btn:hover {
+    background-color: grey;
+    border-color: orangered;
 }
 @media screen and (max-width: 426px) {
     .little-body{
@@ -163,4 +184,18 @@ a{
     }
     
 }
-  
+
+@media screen and (max-width: 768px) {
+    .portfolio-name{
+        font-size: 85px;
+        min-width: 100px;
+        height: 85px;
+        text-align: center;
+        margin-bottom: 95px;
+    }
+    .job-title{
+        margin-top: 5px;
+        text-align: center;
+        font-size: 40px;
+    }
+}
