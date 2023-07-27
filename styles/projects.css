@@ -47,12 +47,21 @@
     width: 40%;
     max-width: 100%;
     text-align: right;
+    border-width: 2px;
+    border-color: #252525;
+    border-style: solid;
 }
 .stewie-img{
     min-width: 400px;
     width: 40%;
     max-width: 100%;
     
+}
+.project-explanation{
+    text-align: left;
+}
+.project-link{
+    font-size: 22px;
 }
 @media screen and (max-width: 426px) {
     .container{
