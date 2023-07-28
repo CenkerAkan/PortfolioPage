@@ -73,7 +73,7 @@
     height: 98%;
     width: 98%;
     min-width: 350px;/* 150px*/
-    max-height: 700px;
+    max-width: 600px;
     
 }
 .about-me{
@@ -153,7 +153,7 @@
         height: 98%;
         width: 98%;
         min-width: 200px;/* 150px*/
-        max-height: 700px;
+        max-width: 600px;
         
     }
 
